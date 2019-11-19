@@ -1,0 +1,16 @@
+package lat2;
+
+/**
+ *
+ * @author nabila
+ */
+public interface Relation {
+   public static void main (String[] args) {
+ Line a = new Line(2.0,2.3,2.2,2.1);
+       System.out.println(a.getLength());
+       System.out.println(a.isGreater(a,a));
+       System.out.println(a.isLess(a,a));
+       System.out.println(a.isEqual(a,a));
+   }
+}
+   
